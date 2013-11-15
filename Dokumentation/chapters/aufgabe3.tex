@@ -1,4 +1,5 @@
 \chapter{Längenmessung}
+\TODO{Tobias}
 \section{Motivation}
 In einem Sägewerk ist die Messanlage ausgefallen. Euer Roboter muss jetzt das Messen übernehmen! Da es aufgrund der Maschinen im Sägewerk aus Sicherheitsgründen nicht möglich ist, sich frei zu bewegen, muss die Messung stationär erfolgen.
 
@@ -34,3 +35,10 @@ $a^2 + b^2 - 2ab*cos\gamma = c^2$
 Zusatzaufgabe: Berechnet die Fläche des Objekts.
 
 \section{Lösung}
+\subsection{Länge messen}
+Bei der Lösung für die Berechnung verwenden wir den Kosinussatz. Hierfür verwenden wir ein Plugin für NXT-G. Wir messen die Distanz zu den beiden Enden des Objekts und den Winkel dazwischen. Danach wird lediglich der Kosinussatz angewendet.
+
+\subsection{Fläche messen}
+Das Messend er Fläche läuft analog zu dem Messen der Länge. Es wird gemessen bis zur Ecke des Objekts(wenn die Distanz wieder größer wird). Es wird zweimal die Länge berechnet und daraus dann die Fläche.
+
+Beide Lösungen sind auf der DVD unter \textit{Lösungen/Messen} zu finden.
